@@ -1,0 +1,20 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem
+}
+
+.navbar .navbar-links {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.75rem
+}
+
+/* npx tailwindcss -i ./src/Components/Nav/nav.css -o ./src/Assets/css/nav.css --watch */

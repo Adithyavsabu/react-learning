@@ -1,0 +1,7 @@
+.navbar {
+  @apply px-5 py-4  flex items-center justify-between;
+}
+.navbar .navbar-links {
+  @apply w-full flex flex-row items-center justify-between gap-7;
+}
+/* npx tailwindcss -i ./src/Components/Nav/nav.css -o ./src/Assets/css/nav.css --watch */
