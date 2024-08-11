@@ -12,9 +12,11 @@ function App() {
       <header>
         <Nav />
       </header>
-      <Card img={card1} title={"Card 1"} data={"Card 1 description"} />
-      <Card img={card2} title={"Card 2"} data={"Card 3 description"} />
-      <Card img={card3} title={"Card 3"} data={"Card 3 description"} />
+      <div>
+        <Card img={card1} title={"Card 1"} data={"Card 1 description"} />
+        <Card img={card2} title={"Card 2"} data={"Card 3 description"} />
+        <Card img={card3} title={"Card 3"} data={"Card 3 description"} />
+      </div>
     </div>
   );
 }

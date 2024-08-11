@@ -1,14 +1,15 @@
-import react from "react";
-
+import React from "react";
 import logo from "../../Assets/images/logo192.png";
 import "../../Assets/css/nav.css";
 
 function Nav() {
   return (
-    <div className="navbar">
-      <img src={logo} alt="" />
+    <nav className="navbar">
+      <div className="logo-container">
+        <img src={logo} alt="Logo" />
+      </div>
 
-      <div>
+      <div className="link-container">
         <ul className="navbar-links">
           <li>
             <a href="default.asp">Home</a>
@@ -24,7 +25,7 @@ function Nav() {
           </li>
         </ul>
       </div>
-    </div>
+    </nav>
   );
 }
 

@@ -1,7 +1,24 @@
 .navbar {
-  @apply px-5 py-4  flex items-center justify-between;
+  @apply px-5 py-4 flex items-center justify-start bg-white shadow-lg;
 }
+
 .navbar .navbar-links {
-  @apply w-full flex flex-row items-center justify-between gap-7;
+  @apply flex gap-7;
 }
+
+.navbar .navbar-links li {
+  @apply list-none;
+}
+
+.navbar .navbar-links a {
+  @apply text-gray-700 hover:text-red-900 font-medium;
+}
+.link-container{
+  @apply ml-7
+}
+.logo-container{
+  @apply h-5 w-5
+}
+
+
 /* npx tailwindcss -i ./src/Components/Nav/nav.css -o ./src/Assets/css/nav.css --watch */

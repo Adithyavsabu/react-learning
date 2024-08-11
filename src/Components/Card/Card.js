@@ -1,10 +1,15 @@
+import "../../Assets/css/card.css";
 function Card({ img, title, data }) {
   return (
-    <div>
-      <img src={img} alt="" />
-      <h5>{title}</h5>
-      <p>{data}</p>
-      <span>Click me</span>
+    <div className="card-container">
+      <div className="card-img">
+        <img src={img} alt={title} className="h-full w-full object-cover" />
+      </div>
+      <div className="card-content">
+        <h5 className="card-title">{title}</h5>
+        <p className="card-details">{data}</p>
+        <button className="card-button">Click me</button>
+      </div>
     </div>
   );
 }

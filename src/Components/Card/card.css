@@ -1,0 +1,19 @@
+.card-container{
+   @apply flex flex-row justify-between bg-white shadow-xl rounded-lg overflow-hidden my-8 mx-10 w-96
+}
+.card-img{
+  @apply  w-1/2 flex items-center
+}
+.card-content{
+    @apply w-2/3 p-4 flex flex-col justify-start items-center
+}
+.card-title{
+    @apply text-xl font-semibold
+}
+.card-details{
+    @apply text-gray-700
+}
+.card-button{
+    @apply mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600
+}
+/* npx tailwindcss -i ./src/Components/Card/card.css -o ./src/Assets/css/card.css --watch */
